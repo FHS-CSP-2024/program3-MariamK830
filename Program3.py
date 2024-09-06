@@ -11,7 +11,7 @@
 #  
 # I am looking for a job with a salary of 2000-3000 dollars per month
 
-name = "Tim Tester"
+name="Tim Tester" 
 age = 20
 skill1 = "python"
 level1 = "beginner"
@@ -21,6 +21,15 @@ skill3 = "programming"
 level3 = "semiprofessional"
 lower = 2000
 upper = 3000
+print("my name is" ,name,"," "I am",age, "years old")
+
+print("my skills are")
+print(" - " ,skill1, "(",level1,")")
+print(" - " ,skill2, "(",level2,")")
+print(" - " ,skill3, "(",level3,")")
+
+print("I am looking for a job with a salary of" ,lower, "-" ,upper, "dollars per month")
+
 
 print("my name is ", name, " , I am ", age, "years old")
 print("my skills are")
@@ -48,6 +57,10 @@ print("I am looking for a job with a salary of", lower, "-", upper, "dollars per
 #
 # - The program should work correctly even if the values of the variables are changed.
 
-x = input("X val: ")
+x =input("X val: ")
 y = input("Y val: ")
+print(int(x)+int(y))
+print(int(x)-int(y))
+print(int(x)*int(y))
+print(int(x)/int(y))
 
